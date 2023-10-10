@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        margin: 0px auto;
+      }
+      .tokyo {
+        color: #2c62c2;
+        font-size: 25px;
+      }
+
+      .today {
+        font-size: 25px;
+        padding: 5px;
+      }
+      .high-temp {
+        font-weight: bold;
+      }
+      ul {
+        list-style: none;
+        padding: 0px;
+        font-family: "Courier New", Courier, monospace;
+      }
+      li {
+        padding: 20px;
+      }
+      .tomorrow {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+      }
+
+      .saturday {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+      }
+
+      .sunday {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+      }
+      li:hover {
+        background-color: floralwhite;
+        border-radius: 10px;
+      }
+      button {
+        color: white;
+        background: #2c62c2;
+        font-size: 13px;
+        padding: 15px;
+        border: 1px solid #2c62c2;
+        border-radius: 25px;
+      }
+      button:hover {
+        background: rgb(111, 9, 9);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🌤️</h1>
+    <div class="tokyo"><strong>Currently 21º in Tokyo</strong></div>
+    <div class="today">
+      13º /
+      <span class="high-temp"> 23</span>
+    </div>
+    <ul>
+      <li class="tomorrow-temp">
+        <div class="tomorrow"><strong>🌧️ Tomorrow</strong></div>
+        10º /
+        <span class="high-temp">22º</span>
+      </li>
+      <li class="sat-temp">
+        <div class="saturday"><strong>🌥️ Saturday</strong></div>
+        15º /
+        <span class="high-temp">17º</span>
+      </li>
+      <li class="sun-temp">
+        <div class="sunday"><strong>☀️ Sunday</strong></div>
+        25º / <span class="high-temp">28º</span>
+      </li>
+    </ul>
+    <button>Change City</button>
+  </body>
+</html>
